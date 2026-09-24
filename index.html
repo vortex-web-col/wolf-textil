@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolf Textil - Confección de Trajes de Mariachi</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Encabezado / Navegación -->
+    <header class="header">
+        <div class="container header-container">
+            
+            <!-- LOGO: Puedes usar tu archivo logo.png o logo.svg guardado en la carpeta imagenes/ -->
+            <div class="logo">
+                <div class="logo-img-wrap">
+                    <!-- CAMBIA LA RUTA 'src' POR TU ARCHIVO DE LOGO -->
+                    <img src="img/logolobo.jpg.jpeg" alt="Wolf Textil Logo" class="logo-img" id="main-logo">
+                </div>
+                <div class="logo-text">
+                    <h2>WOLF TEXTIL</h2>
+                    <span>CONFECCIÓN DE TRAJES DE MARIACHI</span>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#catalogo" class="nav-link">Catálogo</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+
+            <a href="https://wa.me/573132520761" class="btn-whatsapp-head" target="_blank">
+                <i class="fab fa-whatsapp"></i> +57 313 252 0761
+            </a>
+        </div>
+    </header>
+
+    <!-- Sección Hero / Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h2>Elegancia charra que distingue tu voz </h2>
+            <p>Diseño y confección exclusivade Trajes de Mariachi, Camisolas bordadas y moños charros. Diseñados a la medida con acabados premium en bordados dorados y metalicos.</p>
+            <a href="#catalogo" class="btn-primary">Ver Catálogo de Productos</a>
+        </div>
+    </section>
+
+    <!-- Sección del Catálogo -->
+<section id="catalogo" class="catalog-section">
+    <div class="container">
+        <h2>NUESTRO CATÁLOGO DE PRENDAS</h2>
+        
+        <!-- Botones de filtro -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="todos">Todos los Productos</button>
+            <button class="filter-btn" data-category="trajes">Trajes de Mariachi</button>
+            <button class="filter-btn" data-category="camisolas">Camisolas</button>
+            <button class="filter-btn" data-category="monos">Moños Charros</button>
+        </div>
+
+</section>
+
+        <!-- Galería de 12 Productos -->
+        <div class="product-grid" id="product-grid">
+            
+            <!-- PRODUCTO 1 -->
+            <div class="product-card" data-category="trajes">
+                <div class="product-img-box">
+                    <img src="img/traje-negro-plateado.jpeg" alt="Traje de Marichi Imperial Negro y plateado" onerror="this.src='https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-gold">imperial </span>
+                </div>
+                <div class="product-info">
+                    <h3>1. Traje de Mariachi Imperial Negro & plateado</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Paño Azabache</span>
+                        <span><i class="fas fa-certificate"></i> Hilo Metálico Plateado</span>
+                    </div>
+                    <p class="description">
+                        Confeccionado en paño fino azabache. Presenta finos bordados de grecas charras en hilo metálico plateado sobre chaquetilla, chaleco, solapas y pantalon. Incluye herrajeria plateada.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Incluye: Chaquetilla, Chaleco, Moño y Pantalón</li>
+                        <li><i class="fas fa-check"></i> Corte estilizado de alta sastrería</li>
+                        <li><i class="fas fa-check"></i> Confección personalizada sobre medida</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20deseo%20cotizar%20el%20Producto%201:%20Traje%20de%20Gala%20Imperial%20Negro%20y%20Dorado" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 2 -->
+            <div class="product-card" data-category="trajes">
+                <div class="product-img-box">
+                    <img src="img/traje-blanco.jpeg" alt="traje de marichi blanco imperial" onerror="this.src='https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-beige">imperial  </span>
+                </div>
+                <div class="product-info">
+                    <h3>2. Traje de Mariachi Blanco Imperial</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Paño Marfil </span>
+                        <span><i class="fas fa-certificate"></i> Hilo Metalico Dorado </span>
+                    </div>
+                    <p class="description">
+                        Confeccionado en paño fino Marfil. Presenta finos bordados de grecas charras en hilo metalico dorado sobre chaquetilla, chaleco, solapas y pantalon. Incluye herrejeria dorada.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Incluye: Chaquetilla, Chaleco moño  y Pantalón</li>
+                        <li><i class="fas fa-check"></i> Corte estilizado de alta sastrería</li>
+                        <li><i class="fas fa-check"></i> Confección personalizada sobre medida</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20me%20interesa%20el%20Producto%202:%20Camisola%20Beige%20Presidencial" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 3 -->
+            <div class="product-card" data-category="trajes">
+                <div class="product-img-box">
+                    <img src="img/traje-azuloscuro.jpeg" alt="Traje de mariachi bordados Dorado" onerror="this.src='https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-gold">imperial  </span>
+                </div>
+                <div class="product-info">
+                    <h3>3. Traje de Marichi premiun</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Paño Azul oscuro</span>
+                        <span><i class="fas fa-certificate"></i> Hilo Metalico Dorado</span>
+                    </div>
+                    <p class="description">
+                        Confeccionado en paño fino Marfil. Presenta finos bordados de grecas charras en hilo metalico dorado sobre chaquetilla, chaleco, solapas y pantalon. Incluye herrejeria dorada.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Incluye: Chaquetilla, Chaleco, moño  y Pantalón</li>
+                        <li><i class="fas fa-check"></i> Corte estilizado de alta sastrería</li>
+                        <li><i class="fas fa-check"></i> Confección personalizada sobre medida</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20deseo%20comprar%20el%20Producto%203:%20Mo%C3%B1o%20Charro%20Bordado%20Dorado" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 4 -->
+            <div class="product-card" data-category="trajes">
+                <div class="product-img-box">
+                    <img src="img/traje-dama-blanco.jpeg" alt="Traje Dama Blanco " onerror="this.src='https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-silver">imperial </span>
+                </div>
+                <div class="product-info">
+                    <h3>4. Traje de Mariachi Dama Blanco imperial</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Paño Marfil</span>
+                        <span><i class="fas fa-certificate"></i> Hilo Metalico Dorado </span>
+                    </div>
+                    <p class="description">
+                        Confeccionado en paño fino Marfil. Presenta finos bordados de grecas charras en hilo metalico dorado sobre chaquetilla, chaleco, solapas y pantalon. Incluye herrejeria dorada.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Incluye: Chaquetilla, Chaleco, moño  y Falda</li>
+                        <li><i class="fas fa-check"></i> Corte estilizado de alta sastrería</li>
+                        <li><i class="fas fa-check"></i> Confección personalizada sobre medida</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20quiero%20cotizar%20el%20Producto%204:%20Traje%20Beige%20Sterling%20Plata" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 5 -->
+            <div class="product-card" data-category="trajes">
+                <div class="product-img-box">
+                    <img src="img/traje-dama-negro.jpeg" alt="Traje Dama Negro" onerror="this.src='https://images.unsplash.com/photo-1598032895397-b9472444bf93?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-gold">imperial </span>
+                </div>
+                <div class="product-info">
+                    <h3>5. Traje de Mariachi Dama Negro imperial</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Paño Marfil</span>
+                        <span><i class="fas fa-certificate"></i> Hilo Metalico Plateado </span>
+                    </div>
+                    <p class="description">
+                        Confeccionado en paño fino Marfil. Presenta finos bordados de flores charras en hilo metalico plateado sobre chaquetilla, chaleco, solapas y pantalon. Incluye herrejeria dorada.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Incluye: Chaquetilla, Chaleco, moño  y falda</li>
+                        <li><i class="fas fa-check"></i> Corte estilizado de alta sastrería</li>
+                        <li><i class="fas fa-check"></i> Confección personalizada sobre medida</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20solicito%20información%20del%20Producto%205:%20Camisola%20Negra%20M%C3%ADstica" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 6 -->
+            <div class="product-card" data-category="trajes">
+                <div class="product-img-box">
+                    <img src="img/traje-azul.jpeg" alt="Traje Azul Majenta" onerror="this.src='https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-silver">imperial </span>
+                </div>
+                <div class="product-info">
+                    <h3>6. Traje de Marichi Azul Majenta</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Paño Azul Majenta</span>
+                        <span><i class="fas fa-certificate"></i> Hilo Metalico Plateado </span>
+                    </div>
+                    <p class="description">
+                        Confeccionado en paño fino Azul majenta. Presenta finos bordados de flores charras en hilo metalico plateado sobre chaquetilla, chaleco, solapas y pantalon. Incluye herrejeria dorada.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Incluye: Chaquetilla, Chaleco, moño  y Pantalón</li>
+                        <li><i class="fas fa-check"></i> Corte estilizado de alta sastrería</li>
+                        <li><i class="fas fa-check"></i> Confección personalizada sobre medida</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20me%20gustaría%20ordenar%20el%20Producto%206:%20Mo%C3%B1o%20Plata%20Sterling%20Silver" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 7 -->
+            <div class="product-card" data-category="trajes">
+                <div class="product-img-box">
+                    <img src="img/traje-azul-claro.jpeg" alt="Traje de Mariachi Azul y blanco" onerror="this.src='https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-beige">Imperial </span>
+                </div>
+                <div class="product-info">
+                    <h3>7. Traje de Mariachi Azul y Blanco</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Paño Azul </span>
+                        <span><i class="fas fa-certificate"></i> Hilo Blanco  </span>
+                    </div>
+                    <p class="description">
+                        Confeccionado en paño fino Azul . Presenta finos bordados de flores charras en hilo Blanco sobre chaquetilla, chaleco, solapas y pantalon. Incluye herrejeria dorada.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Incluye: Chaquetilla, Chaleco, moño  y Pantalón</li>
+                        <li><i class="fas fa-check"></i> Corte estilizado de alta sastrería</li>
+                        <li><i class="fas fa-check"></i> Confección personalizada sobre medida</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20deseo%20cotizar%20el%20Producto%207:%20Traje%20Media%20Gala%20Beige%20y%20Oro" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 8 -->
+            <div class="product-card" data-category="camisolas">
+                <div class="product-img-box">
+                    <img src="img/camisola-beige.jpeg" alt="Camisola Clásica Beige y vinotinto" onerror="this.src='https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-silver">Clásica</span>
+                </div>
+                <div class="product-info">
+                    <h3>8. Camisola Clásica Beige y vinotinto</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Dabrún Beige</span>
+                        <span><i class="fas fa-tshirt"></i> Alforzado Francés</span>
+                    </div>
+                    <p class="description">
+                        Camisola charra indispensable para todo mariachi. Tela de textura impecable que facilita el planchado y previene arrugas durante las actuaciones con bordados hilo vinotinto.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Cuello semirrígido de excelente soporte y bordados</li>
+                        <li><i class="fas fa-check"></i> Botones de acetato reforzado</li>
+                        <li><i class="fas fa-check"></i> Disponible para mariachis completos</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20solicito%20cotización%20del%20Producto%208:%20Camisola%20Cl%C3%A1sica%20Blanca" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 9 -->
+            <div class="product-card" data-category="camisolas">
+                <div class="product-img-box">
+                    <img src="img/camisola-azul.jpeg" alt="Camisola Clásica Azul Majenta" onerror="this.src='https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-silver">Clásica</span>
+                </div>
+                <div class="product-info">
+                    <h3>9. Camisola Clásica Azul Majenta</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Dabrún Majenta</span>
+                        <span><i class="fas fa-tshirt"></i> Alforzado Francés</span>
+                    </div>
+                    <p class="description">
+                        Camisola charra indispensable para todo mariachi. Tela de textura impecable que facilita el planchado y previene arrugas durante las actuaciones con bordados hilo Blanco.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Cuello semirrígido de excelente soporte y bordados</li>
+                        <li><i class="fas fa-check"></i> Botones de acetato reforzado</li>
+                        <li><i class="fas fa-check"></i> Disponible para mariachis completos</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20deseo%20adquirir%20el%20Producto%209:%20Mo%C3%B1o%20Beige%20Imperial" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 10 -->
+            <div class="product-card" data-category="chalecos">
+                <div class="product-img-box">
+                    <img src="img/chaleco-negro.jpeg" alt="Chaleco de Gala Plateado & Negro" onerror="this.src='https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-gold">imperial </span>
+                </div>
+                <div class="product-info">
+                    <h3>10. Chaleco de Gala Plateado & Negro</h3>
+                    <div class="specs">
+                        <span><i class="fas fa-cut"></i> Brocado Jacquard</span>
+                        <span><i class="fas fa-vest"></i> Espalda de Raso</span>
+                    </div>
+                    <p class="description">
+                        Chaleco individual para solistas o directores de agrupación. Bordado Elaborado en brocado plateado con motivos barrocos sobre fondo negro y hebilla trasera de ajuste.
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Botones dorados de alta densidad</li>
+                        <li><i class="fas fa-check"></i> Bolsillos frontales funcionales</li>
+                        <li><i class="fas fa-check"></i> Horma que estiliza la silueta, todos los colores</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20quiero%20cotizar%20el%20Producto%2010:%20Chaleco%20Dorado%20y%20Negro" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 11 -->
+            <div class="product-card" data-category="moños">
+                <div class="product-img-box">
+                    <img src="img/moño-rojo.jpeg" alt="Moño Rojo Satin" onerror="this.src='https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-gold">imperial </span>
+                </div>
+                <div class="product-info">
+                    <h3>11. Moño Rojo Satin</h3>
+                    <div class="specs">
+                        <span class="etiqueta"><i class="fas fa-ribbon"></i> Satín Rojo</span>
+                        <span class="etiqueta"><i class="fas fa-medal"></i> Bordado Dorado</span>
+                    </div>
+                    <p class="description">
+                        Elaborado en satín fino rojo de alta calidad con detalles personalizados. Presenta elegantes bordados en hilo metálico dorado con emblema central, heráldica y grecas artesanales. Un diseño distinguido que mantiene la tradición charra
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Detalle inferior con flequillos dorados colgantes y vistosos</li>
+                        <li><i class="fas fa-check"></i> Personalización exclusiva con escudo y grecas bordadas </li>
+                        <li><i class="fas fa-check"></i>  Estructura firme de alta durabilidad y ajuste perfecto, todos los colores </li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20quiero%20cotizar%20el%20Producto%2010:%20Chaleco%20Dorado%20y%20Negro" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 12 -->
+            <div class="product-card" data-category="moños">
+                <div class="product-img-box">
+                    <img src="img/accesorio-moño-rojo.jpeg" alt="Moño Vinotinto Satin" onerror="this.src='https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&w=600&q=80'">
+                    <span class="badge badge-gold">imperial </span>
+                </div>
+                <div class="product-info">
+                    <h3>12. Moño vinotinto Satin</h3>
+                    <div class="specs">
+                        <span class="etiqueta"><i class="fas fa-ribbon"></i> Satín Rojo</span>
+                        <span class="etiqueta"><i class="fas fa-medal"></i> Bordado Plata</span>
+                    </div>
+                    <p class="description">
+                        Elaborado en satín fino vinotinto de alta calidad con detalles personalizados. Presenta elegantes bordados en hilo metálico plata con emblema central, heráldica y grecas artesanales. Un diseño distinguido que mantiene la tradición charra
+                    </p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Detalle inferior con flequillos dorados colgantes y vistosos</li>
+                        <li><i class="fas fa-check"></i> Personalización exclusiva con escudo y grecas bordadas </li>
+                        <li><i class="fas fa-check"></i>  Estructura firme de alta durabilidad y ajuste perfecto, todos los colores </li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20quiero%20cotizar%20el%20Producto%2010:%20Chaleco%20Dorado%20y%20Negro" target="_blank" class="btn-card-wa">
+                            <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section id="nosotros" class="nosotros container">
+        <div class="nosotros-content">
+            <h2 class="section-title">TRADICIÓN Y CALIDAD WOLF TEXTIL</h2>
+            <div class="title-underline"></div>
+            <p>
+                En <strong>Wolf Textil</strong> nos apasiona el arte de la confección de trajes de alta gama. Combinamos tonos armoniosos con colores a tu gusto en todos nuestros trajes de mariachi de corte impecable. Seleccionamos cuidadosamente paños, casimires y telas de algodón, complementados con finos bordados en hilos metálicos e inoxidables. Ofrecemos confección sobre medida para músicos solistas y dotaciones completas para mariachis en Colombia.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>¿NECESITAS UN TRAJE A LA MEDIDA O PARA TU AGRUPACIÓN?</h2>
+            <p>Confeccionamos prendas individuales y vestuarios completos con envíos a nivel nacional.</p>
+            <div class="contact-box">
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp contact-icon"></i>
+                    <h4>Atención Directa</h4>
+                    <p>+57 313 252 0761</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-shipping-fast contact-icon"></i>
+                    <h4>Envíos Nacionales</h4>
+                    <p>Despachos a toda Colombia</p>
+                </div>
+            </div>
+            <a href="https://wa.me/573132520761?text=Hola%20Wolf%20Textil,%20necesito%20asesoría%20para%20un%20pedido%20de%20trajes%20a%20la%20medida" target="_blank" class="btn-whatsapp-large">
+                <i class="fab fa-whatsapp"></i> Hablar con un Asesor por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/573132520761" class="whatsapp-float" target="_blank" title="Escríbenos a WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Wolf Textil. Todos los derechos reservados. Confección y venta de trajes de mariachi en Colombia.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
